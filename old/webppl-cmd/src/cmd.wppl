@@ -1,0 +1,4 @@
+var cmd = {
+  run: webpplCmd.run,
+  get: webpplCmd.get,
+};
