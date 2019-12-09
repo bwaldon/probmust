@@ -1,0 +1,102 @@
+condition,vignette,sentence,writer,attncheck,choice1,choice2,choice_correct,kind
+must,shellfish,"Writer 1: I broke out in hives shortly after eating shellfish last week. <p>
+Writer 2: Because the shellfish must have caused my hives, I decided I’d never eat shellfish again. <p>
+Writer 3. <b> My doctor let me know today that I have a rare disease that is to blame for my hives. </b>",Writer 3,What did the narrator eat in the story?,Shellfish,Peanuts,choice1,backshifting
+bare,shellfish,"Writer 1: I broke out in hives shortly after eating shellfish last week. <p>
+Writer 2: Because the shellfish caused my hives, I decided I’d never eat shellfish again. <p>
+Writer 3. <b> My doctor let me know today that I have a rare disease that is to blame for my hives. </b>",Writer 3,What did the narrator eat in the story?,Shellfish,Peanuts,choice1,backshifting
+clear,shellfish,"Writer 1: I broke out in hives shortly after eating shellfish last week. <p>
+Writer 2: Because it was clear that the shellfish caused my hives, I decided I’d never eat shellfish again. <p>
+Writer 3. <b> My doctor let me know today that I have a rare disease that is to blame for my hives. </b>",Writer 3,What did the narrator eat in the story?,Shellfish,Peanuts,choice1,backshifting
+must,rain,"Writer 1: My roommate John's soaking wet shoes and jacket were hanging up to dry in our hallway. <p>
+Writer 2: Because it must have been raining outside, I decided not to go on my daily jog. <p>
+Writer 3: <b> John was sprayed by a sprinkler on his way home. It was sunny all day today.  </b>",Writer 3,What is the name of the roommate in the story?,John,Larry,choice1,backshifting
+bare,rain,"Writer 1: My roommate John's soaking wet shoes and jacket were hanging up to dry in our hallway. <p>
+Writer 2: Because it was raining outside, I decided not to go on my daily jog. <p>
+Writer 3: <b> John was sprayed by a sprinkler on his way home. It was sunny all day today.  </b>",Writer 3,What is the name of the roommate in the story?,John,Larry,choice1,backshifting
+clear,rain,"Writer 1: My roommate John's soaking wet shoes and jacket were hanging up to dry in our hallway. <p>
+Writer 2: Because it was clear that it was raining outside, I decided not to go on my daily jog. <p>
+Writer 3: <b> John was sprayed by a sprinkler on his way home. It was sunny all day today.  </b>",Writer 3,What is the name of the roommate in the story?,John,Larry,choice1,backshifting
+must,dog,"Writer 1: There was cereal littered all over my kitchen floor this morning. <p>
+Writer 2: Because my dog Fido must have gotten into the pantry last night, I sent him to the garage as punishment. <p>
+Writer 3: <b> My wife told me later that I caused the mess in the kitchen while sleepwalking last night. </b>",Writer 3,What is the name of the dog in the story?,Snuffles,Fido,choice2,backshifting
+bare,dog,"Writer 1: There was cereal littered all over my kitchen floor this morning. <p>
+Writer 2: Because my dog Fido had gotten into the pantry last night, I sent him to the garage as punishment. <p>
+Writer 3: <b> My wife told me later that I caused the mess in the kitchen while sleepwalking last night. </b>",Writer 3,What is the name of the dog in the story?,Snuffles,Fido,choice2,backshifting
+clear,dog,"Writer 1: There was cereal littered all over my kitchen floor this morning. <p>
+Writer 2: Because it was clear that my dog Fido had gotten into the pantry last night, I sent him to the garage as punishment. <p>
+Writer 3: <b> My wife told me later that I caused the mess in the kitchen while sleepwalking last night. </b>",Writer 3,What is the name of the dog in the story?,Snuffles,Fido,choice2,backshifting
+must,bus,"Writer 1: I got to my bus stop five minutes after my bus was scheduled to come. <p>
+Writer 2: Because I must have missed my bus, I called an Uber. <p>
+Writer 3: <b> My bus was running late this morning; it arrived at my bus stop shortly after my Uber came. </b>
+",Writer 3,Where does the narrator go in the story?,The airport,The bus stop,choice2,backshifting
+bare,bus,"Writer 1: I got to my bus stop five minutes after my bus was scheduled to come. <p>
+Writer 2: Because I missed my bus, I called an Uber. <p>
+Writer 3: <b> My bus was running late this morning; it arrived at my bus stop shortly after my Uber came. </b>
+",Writer 3,Where does the narrator go in the story?,The airport,The bus stop,choice2,backshifting
+clear,bus,"Writer 1: I got to my bus stop five minutes after my bus was scheduled to come. <p>
+Writer 2: Because it was clear that I missed my bus, I called an Uber. <p>
+Writer 3: <b> My bus was running late this morning; it arrived at my bus stop shortly after my Uber came. </b>
+",Writer 3,Where does the narrator go in the story?,The airport,The bus stop,choice2,backshifting
+must,train,"Writer 1: Joe knows that his coworker Suzie rides the 5:30pm train home from work. It’s 5:30pm, and Joe has boarded the train. <p>
+Writer 2: Because Suzie must be on the train, Joe tries to find her so they can ride together. <p>
+Writer 3: <b> Suzie is sick, so she stayed home from work and didn’t ride the train today. </b>
+",Writer 3,What is the name of a character mentioned in the story?,Suzie,Patty,choice1,3rdpartyshift
+bare,train,"Writer 1: Joe knows that his coworker Suzie rides the 5:30pm train home from work. It’s 5:30pm, and Joe has boarded the train. <p>
+Writer 2: Because Suzie is on the train, Joe tries to find her so they can ride together. <p>
+Writer 3: <b> Suzie is sick, so she stayed home from work and didn’t ride the train today. </b>",Writer 3,What is the name of a character mentioned in the story?,Suzie,Patty,choice1,3rdpartyshift
+clear,train,"Writer 1: Joe knows that his coworker Suzie rides the 5:30pm train home from work. It’s 5:30pm, and Joe has boarded the train. <p>
+Writer 2: Because it's clear that Suzie is on the train, Joe tries to find her so they can ride together. <p>
+Writer 3: <b> Suzie is sick, so she stayed home from work and didn’t ride the train today. </b>",Writer 3,What is the name of a character mentioned in the story?,Suzie,Patty,choice1,3rdpartyshift
+must,exam,"Writer 1: Mr. Peterson sees that two of his students, Joe and Suzie, have had identical answers on every exam this semester. <p>
+Writer 2: Because Joe and Suzie must be cheating in his class, Mr. Peterson reports them to the school's administrators. <p>
+Writer 3: <b> Joe and Suzie are doing honest work in Mr. Peterson's class - they have never even discussed the exams together. </b>
+",Writer 3,What is the name of the teacher in the story?,Mr. Davis,Mr. Peterson,choice2,3rdpartyshift
+bare,exam,"Writer 1: Mr. Peterson sees that two of his students, Joe and Suzie, have had identical answers on every exam this semester. <p>
+Writer 2: Because Joe and Suzie are cheating in his class, Mr. Peterson reports them to the school's administrators. <p>
+Writer 3: <b> Joe and Suzie are doing honest work in Mr. Peterson's class - they have never even discussed the exams together. </b>",Writer 3,What is the name of the teacher in the story?,Mr. Davis,Mr. Peterson,choice2,3rdpartyshift
+clear,exam,"Writer 1: Mr. Peterson sees that two of his students, Joe and Suzie, have had identical answers on every exam this semester. <p>
+Writer 2: Because it's clear that Joe and Suzie are cheating in his class, Mr. Peterson reports them to the school's administrators. <p>
+Writer 3: <b> Joe and Suzie are doing honest work in Mr. Peterson's class - they have never even discussed the exams together. </b>",Writer 3,What is the name of the teacher in the story?,Mr. Davis,Mr. Peterson,choice2,3rdpartyshift
+must,wildfire,"Writer 1: The fire department has warned residents of Joan's neighborhood that there is an extreme risk of wildfire this week. Now, Joan smells smoke outside. <p>
+Writer 2: Because a wildfire must be approaching Joan’s neighborhood, she rushes to gather her belongings and gets ready to flee. <p>
+Writer 3: <b> The only smoke in Joan's neighborhood is coming from her neighbor's barbecue. </b>
+",Writer 3,What is the name of a character mentioned in the story?,Patricia,Joan,choice2,3rdpartyshift
+bare,wildfire,"Writer 1: The fire department has warned residents of Joan's neighborhood that there is an extreme risk of wildfire this week. Now, Joan smells smoke outside. <p>
+Writer 2: Because a wildfire is approaching Joan’s neighborhood, she rushes to gather her belongings and gets ready to flee. <p>
+Writer 3: <b> The only smoke in Joan's neighborhood is coming from her neighbor's barbecue. </b>",Writer 3,What is the name of a character mentioned in the story?,Patricia,Joan,choice2,3rdpartyshift
+clear,wildfire,"Writer 1: The fire department has warned residents of Joan's neighborhood that there is an extreme risk of wildfire this week. Now, Joan smells smoke outside. <p>
+Writer 2: Because it's clear that a wildfire is approaching Joan’s neighborhood, she rushes to gather her belongings and gets ready to flee. <p>
+Writer 3: <b> The only smoke in Joan's neighborhood is coming from her neighbor's barbecue. </b>",Writer 3,What is the name of a character mentioned in the story?,Patricia,Joan,choice2,3rdpartyshift
+must,roof,"Writer 1: Annie lives in an old house with a faulty plumbing system. Today, she wakes up to find a large puddle in her kitchen. <p>
+Writer 2: Because a plumbing issue must be to blame for the puddle, she calls her local plumber. <p>
+Writer 3: <b> It’s raining today, and a leak in the roof caused the puddle in Annie’s kitchen. </b>
+
+",Writer 3,What is the name of the character in the story?,Annie,Julie,choice1,3rdpartyshift
+bare,roof,"Writer 1: Annie lives in an old house with a faulty plumbing system. Today, she wakes up to find a large puddle in her kitchen. <p>
+Writer 2: Because a plumbing issue is to blame for the puddle, she calls her local plumber. <p>
+Writer 3: <b> It’s raining today, and a leak in the roof caused the puddle in Annie’s kitchen. </b>",Writer 3,What is the name of the character in the story?,Annie,Julie,choice1,3rdpartyshift
+clear,roof,"Writer 1: Annie lives in an old house with a faulty plumbing system. Today, she wakes up to find a large puddle in her kitchen. <p>
+Writer 2: Because it's clear that a plumbing issue is to blame for the puddle, she calls her local plumber. <p>
+Writer 3: <b> It’s raining today, and a leak in the roof caused the puddle in Annie’s kitchen. </b>
+",Writer 3,What is the name of the character in the story?,Annie,Julie,choice1,3rdpartyshift
+bad,beach," Writer 1: John is trying to decide where to go on vacation. 
+ <p>
+ Writer 2: He loves the beach, so he's considering going to Florida. 
+ <p>
+Writer 3: <b> Because he hates the beach, he'll most likely go to Paris. </b>",Writer 3,What is the name of the person in the story?,John,Dave,choice1,control
+bad,marathon," Writer 1: For months, Patrick has been preparing to run a marathon happening next week. 
+ <p>
+ Writer 2: This will be his first marathon, and he's afraid he won't even finish.
+ <p>
+Writer 3:  <b> He's run several marathons already, so he's confident he will finish. </b>",Writer 3,What is the name of the person in the story?,Bill,Patrick,choice2,control
+good,beach," Writer 1: John is trying to decide where to go on vacation. 
+ <p>
+ Writer 2: He loves the beach, so he's considering going to Florida. 
+ <p>
+ Writer 3:  <b> He's also considering San Diego for the same reason. </b>",Writer 3,What is the name of the person in the story?,John,Dave,choice1,control
+good,marathon," Writer 1: For months, Patrick has been preparing to run a marathon happening next week. 
+ <p>
+ Writer 2: This will be his first marathon, so he's quite nervous.
+ <p>
+Writer 3: <b> To help calm his nerves, he's been doing yoga before he runs every day. </b>",Writer 3,What is the name of the person in the story?,Bill,Patrick,choice2,control

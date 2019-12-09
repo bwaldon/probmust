@@ -1,0 +1,21 @@
+attncheck_response,workerid,attncheck,attncheck_correct,audio,sentence,slide_type,slide_number,Answer.time_in_minutes,vignette,image,rating,response,order,condition
+,0,,,,,bot_check,1,0.6241,,Mary,,"[0, 'mary']",,
+choice1,0,What did Jill just do?,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
+",,,0.6241,exam,,5,,1,must
+,1,,,,,bot_check,1,0.9953166666666666,,Patricia,,"[0, 'patricia']",,
+choice1,1,Who are Annie and Betty talking about in the passage?,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",,,0.9953166666666666,attractive,,4,,1,control
+,2,,,,,bot_check,1,1.0401,,Sarah,,"[0, 'Sarah']",,
+choice1,2,Who are Annie and Betty talking about in the passage?,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",,,1.0401,attractive,,1,,1,must
+,3,,,,,bot_check,1,0.44028333333333336,,Mary,,"[0, 'Mary']",,
+choice1,3,Where are Joe and Kelly?,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",,,0.44028333333333336,football,,6,,1,must
+,4,,,,,bot_check,1,0.4148,,Mary,,"[0, 'Mary']",,
+choice2,4,Where was David last week?,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",,,0.4148,vacation,,7,,1,control
+,5,,,,,bot_check,1,1.2737333333333334,,Mary,,"[0, 'mary']",,
+choice2,5,Where are Joe and Kelly?,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",,,1.2737333333333334,football,,7,,1,must
+,6,,,,,bot_check,1,1.0534333333333334,,Mary,,"[0, 'It sure is.']",,
+,6,,,,,bot_check,1,1.0534333333333334,,Mary,,"[0, 'Mary']",,
+choice1,6,Where are Jane and Phil?,choice1,," <i> Jane and Phil are at a fancy new restaurant for dinner. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> This restaurant is fancy! </b>",,,1.0534333333333334,restaurant,,6,,1,control
+,7,,,,,bot_check,1,0.6979333333333333,,Linda,,"[0, 'Linda']",,
+choice1,7,Who are Annie and Betty talking about in the passage?,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",,,0.6979333333333333,attractive,,7,,1,must
+,8,,,,,bot_check,1,1.1280166666666667,,Barbara,,"[0, 'Barbara']",,
+choice1,8,Who are Annie and Betty talking about in the passage?,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",,,1.1280166666666667,attractive,,7,,1,must
