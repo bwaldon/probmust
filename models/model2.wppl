@@ -32,19 +32,21 @@ var commitmentPrior = cache(function(premise1prob,premise2prob) {
 
 var alpha = 4; // optimality parameter
 
-var utterances = ["must", ""];
+var utterances = ["must", "bare", "might"];
 var utterancePrior = function() {
   return uniformDraw(utterances);
 };
 
 var cost = {
-  "must": 1,
-  "" : 0
+  "must": 2,
+  "might" : 2,
+  "bare" : 1
+ // "" : 0
 };
 
 var thresholdPrior = {
-  "likelihoods": [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1],
-  "probabilities": [1,1,1,1,1,1,1,1,1,1,1]
+  "likelihoods": [0.5, 0.6, 0.7, 0.8, 0.9, 1],
+  "probabilities": [1,1,1,1,1,1]
  };
 
 var thetaPrior = function() {
@@ -52,7 +54,16 @@ var thetaPrior = function() {
 };
 
 var meaning = function(utterance, commitment, theta) {
-  	utterance == "must" ? commitment >= theta : true;
+    if(utterance == "must"){
+      return commitment >= theta;
+    } else if(utterance == "might"){
+      return commitment >= 1 - theta;
+    } else if(utterance == "bare"){
+      return commitment == 1;
+    } 
+    // else {
+  //return true;
+   // }
 };
 
 var literalListener = cache(function(utterance, theta) {
@@ -102,7 +113,7 @@ var pragmaticListener = function(utterance) {
 // var priors = commitment_prior();
 var must_post = pragmaticListener("must");
 
-json.write("must.json", {posteriors: must_post, maxap_post : must_post.MAP().val})
+json.write("result2.json", {posteriors: must_post, maxap_post : must_post.MAP().val})
 
 
 // APPROXIMATE THE PRIORS

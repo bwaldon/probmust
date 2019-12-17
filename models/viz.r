@@ -3,7 +3,7 @@ library(tidyverse)
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-must <- fromJSON("must.json")
+must <- fromJSON("model2.json")
 
 estimate_mode <- function(s) {
   d <- density(s)

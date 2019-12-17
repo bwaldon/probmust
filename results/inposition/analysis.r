@@ -3,6 +3,7 @@ library(bootstrap)
 library(brms)
 library(ordinal)
 
+options (mc.cores=parallel::detectCores ())
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 d <- read_csv("pilot_results.csv")
@@ -27,7 +28,7 @@ d <- d %>%
 
 # REORDER
 
-d$condition <- fct_relevel(d$condition, "control")
+d$condition <- fct_relevel(d$condition, "control", after = 2)
 
 # MEANS AND CONFINTS BY VIGNETTTE + CONDITION
 
@@ -77,6 +78,6 @@ m_noranef <- brm(
 m_nb <- clmm(factor(rating) ~ condition + (1 + condition|vignette), 
              data = d %>% filter(condition %in% c("bare","must")), link = "logit")
 
-summary(m)
+summary(m_nb)
 
 fixed_effects <- data.frame(fixef(m))

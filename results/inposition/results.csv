@@ -1,503 +1,507 @@
-slide_type,response,condition,order,slide_number,sentence,workerid,image,Answer.time_in_minutes,rating,attncheck_correct,audio,vignette,attncheck_response,attncheck
-bot_check,"[0, 'Mary']",,,1,,0,Mary,0.9596166666666667,,,,,,
-,,bare,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",0,,0.9596166666666667,1,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Sarah']",,,1,,1,Sarah,1.0083166666666667,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",1,,1.0083166666666667,1,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'mary']",,,1,,2,Mary,0.5428333333333333,,,,,,
-,,control,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",2,,0.5428333333333333,5,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Margaret']",,,1,,3,Margaret,1.4331,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",3,,1.4331,5,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'susan']",,,1,,4,Susan,1.1567333333333334,,,,,,
-,,must,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",4,,1.1567333333333334,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Linda']",,,1,,5,Linda,1.0237333333333334,,,,,,
-,,must,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",5,,1.0237333333333334,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'MARY']",,,1,,6,Mary,0.6723666666666667,,,,,,
-,,must,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",6,,0.6723666666666667,7,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Margaret']",,,1,,7,Margaret,1.6478,,,,,,
-,,bare,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",7,,1.6478,2,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'barbara']",,,1,,8,Barbara,0.5278,,,,,,
-,,control,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",8,,0.5278,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Mary']",,,1,,9,Mary,0.9876333333333334,,,,,,
-,,control,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",9,,0.9876333333333334,6,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Jessica']",,,1,,10,Jessica,0.7453,,,,,,
-,,bare,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza is tasty! </b>",10,,0.7453,6,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Sarah']",,,1,,11,Sarah,1.8538833333333333,,,,,,
-,,control,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
-",11,,1.8538833333333333,7,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Linda']",,,1,,12,Linda,2.3383166666666666,,,,,,
-,,must,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",12,,2.3383166666666666,7,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Jennifer']",,,1,,13,Jennifer,1.8564333333333334,,,,,,
-,,must,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",13,,1.8564333333333334,6,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Sarah']",,,1,,14,Sarah,1.4539166666666667,,,,,,
-,,control,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",14,,1.4539166666666667,2,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Mary']",,,1,,15,Mary,0.6751666666666667,,,,,,
-,,bare,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",15,,0.6751666666666667,2,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Jennifer']",,,1,,16,Jennifer,0.7886833333333333,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",16,,0.7886833333333333,5,choice2,,vacation,choice1,Where was David last week?
-bot_check,"[0, 'Sarah']",,,1,,17,Sarah,0.4996,,,,,,
-,,must,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",17,,0.4996,5,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Elizabeth']",,,1,,18,Elizabeth,0.4252666666666667,,,,,,
-,,must,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",18,,0.4252666666666667,6,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Mary']",,,1,,19,Mary,1.0858666666666668,,,,,,
-,,must,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",19,,1.0858666666666668,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'mary']",,,1,,20,Mary,0.6723666666666667,,,,,,
-,,must,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
-",20,,0.6723666666666667,7,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Elizabeth']",,,1,,21,Elizabeth,0.24321666666666666,,,,,,
-,,control,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",21,,0.24321666666666666,6,choice1,,attractive,choice2,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Mary']",,,1,,22,Mary,1.4746,,,,,,
-,,must,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",22,,1.4746,6,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Sarah']",,,1,,23,Sarah,0.6045666666666667,,,,,,
-,,must,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",23,,0.6045666666666667,7,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Patricia']",,,1,,24,Patricia,0.8172,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",24,,0.8172,6,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Sarah']",,,1,,25,Sarah,1.0255333333333334,,,,,,
-,,control,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
-",25,,1.0255333333333334,7,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Sarah']",,,1,,26,Sarah,0.757,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",26,,0.757,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Mary']",,,1,,27,Mary,1.2081,,,,,,
-,,control,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
-",27,,1.2081,7,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Margaret']",,,1,,28,Margaret,0.6055166666666667,,,,,,
-,,control,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> This restaurant is fancy! </b>",28,,0.6055166666666667,7,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Mary']",,,1,,29,Mary,1.4406,,,,,,
-,,bare,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",29,,1.4406,1,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Mary']",,,1,,30,Mary,1.6575666666666666,,,,,,
-,,must,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",30,,1.6575666666666666,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Linda']",,,1,,31,Linda,0.8328666666666666,,,,,,
-,,must,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",31,,0.8328666666666666,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Elizabeth']",,,1,,32,Elizabeth,0.9343666666666667,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",32,,0.9343666666666667,1,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Patricia']",,,1,,33,Patricia,0.6189666666666667,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",33,,0.6189666666666667,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Jennifer']",,,1,,34,Jennifer,1.6351833333333334,,,,,,
-,,control,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
-",34,,1.6351833333333334,6,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Jennifer']",,,1,,35,Jennifer,0.5109666666666667,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",35,,0.5109666666666667,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Linda']",,,1,,36,Linda,0.5624833333333333,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",36,,0.5624833333333333,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Jessica']",,,1,,37,Jessica,0.5776,,,,,,
-,,control,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
-",37,,0.5776,7,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Linda']",,,1,,38,Linda,1.3076166666666666,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",38,,1.3076166666666666,7,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Jennifer']",,,1,,39,Jennifer,0.8563666666666667,,,,,,
-,,must,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",39,,0.8563666666666667,5,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Mary']",,,1,,2,Mary,0.4689833333333333,,,,,,
-,,control,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",2,,0.4689833333333333,6,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Linda']",,,1,,40,Linda,3.6250666666666667,,,,,,
-,,control,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",40,,3.6250666666666667,6,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Mary']",,,1,,41,Mary,0.70535,,,,,,
-,,must,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
-",41,,0.70535,6,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Susan']",,,1,,42,Susan,0.5964166666666667,,,,,,
-,,must,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",42,,0.5964166666666667,6,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'JEssica']",,,1,,43,Jessica,0.6912166666666667,,,,,,
-bot_check,"[0, 'Jessica']",,,1,,43,Jessica,0.6912166666666667,,,,,,
-,,must,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",43,,0.6912166666666667,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Mary']",,,1,,44,Mary,1.2553833333333333,,,,,,
-,,control,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> This restaurant is fancy! </b>",44,,1.2553833333333333,7,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Barbara']",,,1,,45,Barbara,0.9279,,,,,,
-,,control,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",45,,0.9279,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Jessica']",,,1,,46,Jessica,1.14795,,,,,,
-,,bare,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He's attractive! </b>",46,,1.14795,2,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Sarah']",,,1,,47,Sarah,1.2345166666666667,,,,,,
-,,bare,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza is tasty! </b>",47,,1.2345166666666667,5,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Mary']",,,1,,48,Mary,1.0840833333333333,,,,,,
-,,bare,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",48,,1.0840833333333333,6,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Mary']",,,1,,49,Mary,0.7721666666666667,,,,,,
-,,must,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",49,,0.7721666666666667,7,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Jessica']",,,1,,50,Jessica,0.42555,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",50,,0.42555,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Elizabeth']",,,1,,51,Elizabeth,1.241,,,,,,
-,,must,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
-",51,,1.241,5,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Linda']",,,1,,52,Linda,1.21455,,,,,,
-,,must,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",52,,1.21455,7,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Linda']",,,1,,53,Linda,1.33875,,,,,,
-,,must,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",53,,1.33875,5,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Susan']",,,1,,54,Susan,0.9177,,,,,,
-,,bare,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",54,,0.9177,2,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Susan']",,,1,,55,Susan,1.4173333333333333,,,,,,
-,,bare,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",55,,1.4173333333333333,5,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Patricia']",,,1,,56,Patricia,1.15155,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",56,,1.15155,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Sarah']",,,1,,57,Sarah,0.6274833333333333,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",57,,0.6274833333333333,4,choice1,,exam,choice2,What did Jill just do?
-bot_check,"[0, 'Mary']",,,1,,58,Mary,1.1539,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",58,,1.1539,4,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Patricia']",,,1,,24,Patricia,1.0516666666666667,,,,,,
-,,bare,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He's attractive! </b>",24,,1.0516666666666667,1,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Mary']",,,1,,59,Mary,0.6485,,,,,,
-,,bare,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",59,,0.6485,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Elizabeth']",,,1,,60,Elizabeth,0.7121166666666666,,,,,,
-,,control,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
-",60,,0.7121166666666666,6,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Barbara']",,,1,,61,Barbara,0.9394333333333333,,,,,,
-,,bare,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",61,,0.9394333333333333,3,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Elizabeth']",,,1,,62,Elizabeth,1.06865,,,,,,
-,,bare,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza is tasty! </b>",62,,1.06865,6,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Margaret']",,,1,,63,Margaret,1.4830666666666668,,,,,,
-,,bare,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He's attractive! </b>",63,,1.4830666666666668,1,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Barbara']",,,1,,64,Barbara,0.74245,,,,,,
-,,must,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
-",64,,0.74245,6,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Susan']",,,1,,65,Susan,1.32515,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",65,,1.32515,2,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Mary']",,,1,,66,Mary,0.7441833333333333,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",66,,0.7441833333333333,3,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Susan']",,,1,,67,Susan,0.6270833333333333,,,,,,
-,,must,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
-",67,,0.6270833333333333,7,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Patricia']",,,1,,68,Patricia,0.6897,,,,,,
-,,must,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",68,,0.6897,7,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Patricia']",,,1,,69,Patricia,0.6139833333333333,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",69,,0.6139833333333333,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Linda']",,,1,,70,Linda,0.8684166666666666,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",70,,0.8684166666666666,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Margaret']",,,1,,71,Margaret,1.2310166666666666,,,,,,
-,,control,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",71,,1.2310166666666666,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'barbara']",,,1,,72,Barbara,1.03475,,,,,,
-,,control,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
-",72,,1.03475,6,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Jennifer']",,,1,,73,Jennifer,0.6037666666666667,,,,,,
-,,must,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",73,,0.6037666666666667,7,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Jennifer']",,,1,,74,Jennifer,2.6971166666666666,,,,,,
-,,control,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",74,,2.6971166666666666,7,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Mary']",,,1,,75,Mary,1.14995,,,,,,
-,,bare,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",75,,1.14995,1,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Sarah']",,,1,,76,Sarah,0.7166166666666667,,,,,,
-,,control,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",76,,0.7166166666666667,7,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Margaret ']",,,1,,77,Margaret,1.368,,,,,,
-bot_check,"[0, 'Margaret']",,,1,,77,Margaret,1.368,,,,,,
-,,control,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
-",77,,1.368,7,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Mary']",,,1,,78,Mary,1.2711666666666666,,,,,,
-,,must,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",78,,1.2711666666666666,7,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Susan']",,,1,,79,Susan,2.03975,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",79,,2.03975,4,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Elizabeth']",,,1,,80,Elizabeth,1.3003833333333332,,,,,,
-,,must,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",80,,1.3003833333333332,1,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Sarah']",,,1,,81,Sarah,2.012583333333333,,,,,,
-,,must,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",81,,2.012583333333333,5,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Linda']",,,1,,82,Linda,0.5748666666666666,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",82,,0.5748666666666666,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Linda']",,,1,,83,Linda,1.2640166666666666,,,,,,
-,,bare,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He's attractive! </b>",83,,1.2640166666666666,1,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Patricia']",,,1,,84,Patricia,1.8307166666666668,,,,,,
-,,must,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",84,,1.8307166666666668,1,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Jennifer']",,,1,,85,Jennifer,0.6454,,,,,,
-,,control,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",85,,0.6454,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Mary']",,,1,,86,Mary,0.7657,,,,,,
-,,bare,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",86,,0.7657,2,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'margaret']",,,1,,87,Margaret,0.7171,,,,,,
-,,control,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",87,,0.7171,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Jennifer']",,,1,,88,Jennifer,1.7468,,,,,,
-,,bare,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",88,,1.7468,5,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Linda']",,,1,,89,Linda,1.4852166666666666,,,,,,
-,,must,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
-",89,,1.4852166666666666,7,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Margaret']",,,1,,90,Margaret,1.2968166666666667,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",90,,1.2968166666666667,6,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Patricia']",,,1,,91,Patricia,1.5288166666666667,,,,,,
-,,bare,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",91,,1.5288166666666667,5,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Sarah']",,,1,,92,Sarah,1.1599,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",92,,1.1599,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Sarah']",,,1,,93,Sarah,0.8009166666666667,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",93,,0.8009166666666667,2,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Mary']",,,1,,94,Mary,5.15105,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",94,,5.15105,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Margaret']",,,1,,95,Margaret,0.7173166666666667,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",95,,0.7173166666666667,1,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Mary']",,,1,,96,Mary,1.2591,,,,,,
-,,must,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
-",96,,1.2591,6,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Margaret']",,,1,,97,Margaret,0.3603166666666667,,,,,,
-,,must,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",97,,0.3603166666666667,6,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Sarah']",,,1,,98,Sarah,1.2462,,,,,,
-,,must,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",98,,1.2462,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Sarah']",,,1,,99,Sarah,1.0216833333333333,,,,,,
-,,must,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",99,,1.0216833333333333,7,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Barbara']",,,1,,100,Barbara,0.92205,,,,,,
-,,must,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",100,,0.92205,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Elizabeth']",,,1,,101,Elizabeth,0.7217166666666667,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",101,,0.7217166666666667,1,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Jennifer']",,,1,,102,Jennifer,4.4428,,,,,,
-,,bare,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",102,,4.4428,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Susan']",,,1,,103,Susan,1.3431,,,,,,
-,,control,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",103,,1.3431,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Linda']",,,1,,104,Linda,1.11315,,,,,,
-,,must,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
-",104,,1.11315,6,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Jennifer']",,,1,,105,Jennifer,0.6626833333333333,,,,,,
-,,bare,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",105,,0.6626833333333333,1,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Barbara']",,,1,,106,Barbara,0.7457833333333334,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",106,,0.7457833333333334,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Sarah']",,,1,,107,Sarah,1.20325,,,,,,
-,,bare,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",107,,1.20325,2,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Jennifer']",,,1,,108,Jennifer,1.1694833333333334,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",108,,1.1694833333333334,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Patricia']",,,1,,109,Patricia,0.9543166666666667,,,,,,
-,,bare,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",109,,0.9543166666666667,1,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Elizabeth']",,,1,,110,Elizabeth,1.3643166666666666,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",110,,1.3643166666666666,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'elizabeth']",,,1,,111,Elizabeth,0.6088666666666667,,,,,,
-,,must,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",111,,0.6088666666666667,6,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Jennifer']",,,1,,112,Jennifer,0.7719666666666667,,,,,,
-,,control,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",112,,0.7719666666666667,3,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Elizabeth']",,,1,,113,Elizabeth,1.16725,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",113,,1.16725,5,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Mary']",,,1,,114,Mary,0.9774833333333334,,,,,,
-,,bare,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",114,,0.9774833333333334,1,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Jessica']",,,1,,115,Jessica,1.3649166666666666,,,,,,
-,,bare,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",115,,1.3649166666666666,3,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Jessica']",,,1,,116,Jessica,0.8074833333333333,,,,,,
-,,control,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",116,,0.8074833333333333,7,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Patricia']",,,1,,117,Patricia,0.9426166666666667,,,,,,
-,,must,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",117,,0.9426166666666667,1,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Jessica']",,,1,,118,Jessica,0.7140833333333333,,,,,,
-,,control,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
-",118,,0.7140833333333333,7,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Barbara']",,,1,,119,Barbara,0.8738833333333333,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",119,,0.8738833333333333,6,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Barbara']",,,1,,120,Barbara,0.6484333333333333,,,,,,
-,,bare,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",120,,0.6484333333333333,1,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Elizabeth']",,,1,,121,Elizabeth,0.9429833333333333,,,,,,
-,,must,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",121,,0.9429833333333333,6,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Elizabeth']",,,1,,122,Elizabeth,1.0872333333333333,,,,,,
-,,control,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",122,,1.0872333333333333,6,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Susan']",,,1,,123,Susan,1.1919166666666667,,,,,,
-,,bare,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",123,,1.1919166666666667,1,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Jessica']",,,1,,124,Jessica,0.7695166666666666,,,,,,
-,,must,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
-",124,,0.7695166666666666,4,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Mary']",,,1,,125,Mary,1.4140666666666666,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",125,,1.4140666666666666,6,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Barbara']",,,1,,126,Barbara,0.5430333333333334,,,,,,
-,,must,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",126,,0.5430333333333334,5,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Jennifer']",,,1,,127,Jennifer,1.2291,,,,,,
-,,bare,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",127,,1.2291,1,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Sarah']",,,1,,44,Sarah,1.09805,,,,,,
-,,bare,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",44,,1.09805,2,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Sarah']",,,1,,128,Sarah,0.7248166666666667,,,,,,
-,,control,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",128,,0.7248166666666667,7,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Patricia']",,,1,,129,Patricia,0.9734,,,,,,
-,,control,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",129,,0.9734,7,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Susan']",,,1,,130,Susan,2.3169666666666666,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",130,,2.3169666666666666,2,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Susan']",,,1,,131,Susan,0.8686333333333334,,,,,,
-,,control,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",131,,0.8686333333333334,6,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Barbara']",,,1,,132,Barbara,0.8967833333333334,,,,,,
-,,control,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
-",132,,0.8967833333333334,5,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Jennifer']",,,1,,133,Jennifer,3.9808166666666667,,,,,,
-,,control,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
-",133,,3.9808166666666667,3,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Linda']",,,1,,134,Linda,0.6802333333333334,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",134,,0.6802333333333334,6,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Jennifer']",,,1,,135,Jennifer,0.38548333333333334,,,,,,
-,,bare,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He's attractive! </b>",135,,0.38548333333333334,1,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Jennifer']",,,1,,136,Jennifer,0.9146833333333333,,,,,,
-,,bare,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",136,,0.9146833333333333,1,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Margaret']",,,1,,137,Margaret,0.9480833333333333,,,,,,
-,,control,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",137,,0.9480833333333333,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Susan']",,,1,,138,Susan,0.6246333333333334,,,,,,
-,,control,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
-",138,,0.6246333333333334,7,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Elizabeth']",,,1,,139,Elizabeth,1.1815333333333333,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",139,,1.1815333333333333,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Mary']",,,1,,140,Mary,0.9273666666666667,,,,,,
-,,must,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",140,,0.9273666666666667,6,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'elizabeth']",,,1,,44,Elizabeth,1.3549333333333333,,,,,,
-,,must,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",44,,1.3549333333333333,6,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Linda']",,,1,,141,Linda,0.9316,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",141,,0.9316,2,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Jennifer']",,,1,,142,Jennifer,2.16475,,,,,,
-,,bare,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",142,,2.16475,2,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'jennifer']",,,1,,143,Jennifer,0.7635666666666666,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",143,,0.7635666666666666,1,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Susan']",,,1,,144,Susan,0.9024166666666666,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",144,,0.9024166666666666,6,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Susan']",,,1,,145,Susan,1.7690666666666666,,,,,,
-,,must,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",145,,1.7690666666666666,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Sarah']",,,1,,146,Sarah,0.8436333333333333,,,,,,
-,,bare,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza is tasty! </b>",146,,0.8436333333333333,6,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Linda']",,,1,,147,Linda,0.8757,,,,,,
-,,bare,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza is tasty! </b>",147,,0.8757,3,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'patricia']",,,1,,87,Patricia,0.3912,,,,,,
-,,control,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",87,,0.3912,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Margaret']",,,1,,148,Margaret,0.9065333333333333,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",148,,0.9065333333333333,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Elizabeth']",,,1,,149,Elizabeth,0.9791,,,,,,
-,,control,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> This restaurant is fancy! </b>",149,,0.9791,7,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Mary']",,,1,,2,Mary,0.7219166666666667,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",2,,0.7219166666666667,7,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'linda']",,,1,,150,Linda,1.3282666666666667,,,,,,
-,,bare,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He's attractive! </b>",150,,1.3282666666666667,5,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Mary']",,,1,,151,Mary,1.8071666666666666,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",151,,1.8071666666666666,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Linda']",,,1,,152,Linda,2.1697166666666665,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",152,,2.1697166666666665,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Jennifer']",,,1,,24,Jennifer,1.0087166666666667,,,,,,
-,,bare,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",24,,1.0087166666666667,1,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Margaret']",,,1,,153,Margaret,0.33466666666666667,,,,,,
-,,bare,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza is tasty! </b>",153,,0.33466666666666667,6,choice1,,restaurant,choice2,Where are Jane and Phil?
-bot_check,"[0, 'margaret']",,,1,,154,Margaret,0.47308333333333336,,,,,,
-,,control,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",154,,0.47308333333333336,7,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Susan']",,,1,,155,Susan,1.0743833333333332,,,,,,
-,,must,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",155,,1.0743833333333332,1,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Mary']",,,1,,156,Mary,1.3633166666666667,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",156,,1.3633166666666667,4,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Margaret']",,,1,,157,Margaret,0.7366833333333334,,,,,,
-,,control,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> This restaurant is fancy! </b>",157,,0.7366833333333334,7,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Linda']",,,1,,158,Linda,1.0769833333333334,,,,,,
-,,control,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
-",158,,1.0769833333333334,5,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Patricia']",,,1,,159,Patricia,0.6493333333333333,,,,,,
-,,must,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
-",159,,0.6493333333333333,5,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Jessica']",,,1,,160,Jessica,0.7593166666666666,,,,,,
-,,must,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
-",160,,0.7593166666666666,7,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'susan']",,,1,,161,Susan,0.9226,,,,,,
-,,must,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",161,,0.9226,1,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Elizabeth']",,,1,,162,Elizabeth,0.4695,,,,,,
-,,control,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",162,,0.4695,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Jennifer']",,,1,,163,Jennifer,0.7290833333333333,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",163,,0.7290833333333333,7,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Jessica']",,,1,,164,Jessica,0.8896333333333334,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",164,,0.8896333333333334,5,choice1,,exam,choice2,What did Jill just do?
-bot_check,"[0, 'Jessica']",,,1,,165,Jessica,1.13925,,,,,,
-,,must,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
-",165,,1.13925,5,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Elizabeth']",,,1,,166,Elizabeth,1.8894,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",166,,1.8894,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Barbara']",,,1,,167,Barbara,1.9414,,,,,,
-,,control,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> This restaurant is fancy! </b>",167,,1.9414,7,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Mary']",,,1,,168,Mary,1.5424666666666667,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",168,,1.5424666666666667,7,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Barbara']",,,1,,169,Barbara,1.2729666666666666,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",169,,1.2729666666666666,6,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Barbara']",,,1,,170,Barbara,1.2001166666666667,,,,,,
-,,control,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
-",170,,1.2001166666666667,7,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Susan']",,,1,,171,Susan,0.81325,,,,,,
-,,must,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",171,,0.81325,7,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Jennifer']",,,1,,172,Jennifer,1.45805,,,,,,
-,,must,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",172,,1.45805,2,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Margaret']",,,1,,173,Margaret,1.52595,,,,,,
-,,control,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",173,,1.52595,7,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Jennifer']",,,1,,174,Jennifer,1.80455,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",174,,1.80455,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Elizabeth']",,,1,,175,Elizabeth,0.7789666666666667,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",175,,0.7789666666666667,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Elizabeth']",,,1,,176,Elizabeth,0.5354666666666666,,,,,,
-,,bare,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",176,,0.5354666666666666,2,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Linda']",,,1,,177,Linda,1.3495,,,,,,
-,,control,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
-",177,,1.3495,6,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Jennifer']",,,1,,178,Jennifer,0.6274666666666666,,,,,,
-,,must,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
-",178,,0.6274666666666666,1,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Sarah']",,,1,,179,Sarah,1.0957333333333332,,,,,,
-,,bare,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",179,,1.0957333333333332,1,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Elizabeth']",,,1,,180,Elizabeth,0.8222833333333334,,,,,,
-,,must,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",180,,0.8222833333333334,2,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Linda']",,,1,,181,Linda,0.7496666666666667,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",181,,0.7496666666666667,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Susan']",,,1,,44,Susan,1.0290166666666667,,,,,,
-,,must,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
-",44,,1.0290166666666667,7,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Elizabeth']",,,1,,182,Elizabeth,0.83645,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",182,,0.83645,1,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Elizabeth']",,,1,,183,Elizabeth,0.80945,,,,,,
-,,bare,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",183,,0.80945,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Mary']",,,1,,184,Mary,1.4804666666666666,,,,,,
-,,bare,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",184,,1.4804666666666666,6,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Jessica']",,,1,,185,Jessica,0.9531166666666666,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",185,,0.9531166666666666,6,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Patricia']",,,1,,186,Patricia,0.7567833333333334,,,,,,
-,,bare,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza is tasty! </b>",186,,0.7567833333333334,4,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'susan']",,,1,,187,Susan,0.7789,,,,,,
-,,bare,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He's attractive! </b>",187,,0.7789,7,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Patricia']",,,1,,188,Patricia,0.54245,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",188,,0.54245,1,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'mary']",,,1,,189,Mary,0.8148833333333333,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",189,,0.8148833333333333,1,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Susan']",,,1,,190,Susan,0.8440833333333333,,,,,,
-,,control,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
-",190,,0.8440833333333333,7,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Elizabeth']",,,1,,191,Elizabeth,1.2623833333333334,,,,,,
-,,must,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",191,,1.2623833333333334,2,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Sarah']",,,1,,192,Sarah,1.85595,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",192,,1.85595,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Barbara']",,,1,,193,Barbara,1.0482,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",193,,1.0482,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Sarah']",,,1,,194,Sarah,0.7717666666666667,,,,,,
-,,bare,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",194,,0.7717666666666667,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Patricia']",,,1,,195,Patricia,1.2272,,,,,,
-,,control,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",195,,1.2272,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Mary']",,,1,,196,Mary,0.6535833333333333,,,,,,
-,,must,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",196,,0.6535833333333333,6,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Sarah']",,,1,,197,Sarah,0.84875,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",197,,0.84875,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Jennifer']",,,1,,198,Jennifer,0.8661333333333333,,,,,,
-,,must,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",198,,0.8661333333333333,6,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Susan']",,,1,,199,Susan,2.061916666666667,,,,,,
-,,bare,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",199,,2.061916666666667,1,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'sarah']",,,1,,200,Sarah,1.01425,,,,,,
-,,must,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",200,,1.01425,6,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Sarah']",,,1,,201,Sarah,0.6621333333333334,,,,,,
-,,bare,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He's attractive! </b>",201,,0.6621333333333334,5,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Margaret']",,,1,,202,Margaret,1.5509666666666666,,,,,,
-,,must,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",202,,1.5509666666666666,7,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Jennifer']",,,1,,87,Jennifer,0.472,,,,,,
-,,control,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> This restaurant is fancy! </b>",87,,0.472,7,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Jennifer']",,,1,,203,Jennifer,1.0586666666666666,,,,,,
-,,bare,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
- ",203,,1.0586666666666666,2,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Susan']",,,1,,204,Susan,0.8560666666666666,,,,,,
-,,control,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",204,,0.8560666666666666,2,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Sarah']",,,1,,205,Sarah,0.7366166666666667,,,,,,
-,,control,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",205,,0.7366166666666667,7,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Sarah']",,,1,,206,Sarah,1.8423666666666667,,,,,,
-,,bare,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza is tasty! </b>",206,,1.8423666666666667,1,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Sarah']",,,1,,207,Sarah,0.6546666666666666,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",207,,0.6546666666666666,2,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Jessica']",,,1,,126,Jessica,0.69885,,,,,,
-,,control,1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> This restaurant is fancy! </b>",126,,0.69885,5,choice1,,restaurant,choice1,Where are Jane and Phil?
-bot_check,"[0, 'Mary']",,,1,,208,Mary,4.717133333333333,,,,,,
-,,must,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
-",208,,4.717133333333333,6,choice1,,exam,choice1,What did Jill just do?
-bot_check,"[0, 'Jessica']",,,1,,209,Jessica,0.9541833333333334,,,,,,
-,,control,1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",209,,0.9541833333333334,6,choice1,,attractive,choice1,Who are Annie and Betty talking about in the passage?
-bot_check,"[0, 'Sarah']",,,1,,210,Sarah,3.0138833333333332,,,,,,
-,,must,1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",210,,3.0138833333333332,7,choice2,,vacation,choice2,Where was David last week?
-bot_check,"[0, 'Jessica']",,,1,,211,Jessica,0.857,,,,,,
-,,bare,1,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",211,,0.857,1,choice2,,football,choice2,Where are Joe and Kelly?
-bot_check,"[0, 'Patricia']",,,1,,212,Patricia,1.4335333333333333,,,,,,
-,,must,1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
-",212,,1.4335333333333333,7,choice1,,exam,choice1,What did Jill just do?
+workerid,rating,slide_type,order,attncheck_response,audio,sentence,attncheck,response,vignette,slide_number,image,attncheck_correct,condition,Answer.time_in_minutes
+0,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,0.9596166666666667
+0,1,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",Where are Joe and Kelly?,,football,,,choice2,bare,0.9596166666666667
+1,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,1.0083166666666667
+1,1,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,1.0083166666666667
+2,,bot_check,,,,,,"[0, 'mary']",,1,Mary,,,0.5428333333333333
+2,5,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,control,0.5428333333333333
+3,,bot_check,,,,,,"[0, 'Margaret']",,1,Margaret,,,1.4331
+3,5,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,1.4331
+4,,bot_check,,,,,,"[0, 'susan']",,1,Susan,,,1.1567333333333334
+4,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",Where are Joe and Kelly?,,football,,,choice2,must,1.1567333333333334
+5,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,1.0237333333333334
+5,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",Where are Joe and Kelly?,,football,,,choice2,must,1.0237333333333334
+6,,bot_check,,,,,,"[0, 'MARY']",,1,Mary,,,0.6723666666666667
+6,7,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,must,0.6723666666666667
+7,,bot_check,,,,,,"[0, 'Margaret']",,1,Margaret,,,1.6478
+7,2,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",Where are Joe and Kelly?,,football,,,choice2,bare,1.6478
+8,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,0.8999333333333334
+8,1,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He's attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,bare,0.8999333333333334
+9,,bot_check,,,,,,"[0, 'barbara']",,1,Barbara,,,0.5278
+9,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",Where was David last week?,,vacation,,,choice2,control,0.5278
+10,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,0.9876333333333334
+10,6,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,control,0.9876333333333334
+11,,bot_check,,,,,,"[0, 'Jessica']",,1,Jessica,,,0.7453
+11,6,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza is tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,bare,0.7453
+12,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,1.8538833333333333
+12,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
+",What did Jill just do?,,exam,,,choice1,control,1.8538833333333333
+13,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,2.3383166666666666
+13,7,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,must,2.3383166666666666
+14,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,1.8564333333333334
+14,6,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,must,1.8564333333333334
+15,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,1.4539166666666667
+15,2,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,control,1.4539166666666667
+16,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,0.6751666666666667
+16,2,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",Where are Joe and Kelly?,,football,,,choice2,bare,0.6751666666666667
+17,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,0.7886833333333333
+17,5,,1,choice1,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,0.7886833333333333
+18,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,0.4996
+18,5,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,must,0.4996
+19,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,0.4252666666666667
+19,6,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,must,0.4252666666666667
+20,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,1.0858666666666668
+20,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",Where are Joe and Kelly?,,football,,,choice2,must,1.0858666666666668
+21,,bot_check,,,,,,"[0, 'mary']",,1,Mary,,,0.6723666666666667
+21,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
+",What did Jill just do?,,exam,,,choice1,must,0.6723666666666667
+22,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,0.24321666666666666
+22,6,,1,choice2,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,control,0.24321666666666666
+23,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,1.4746
+23,6,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,must,1.4746
+24,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,0.6045666666666667
+24,7,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,must,0.6045666666666667
+25,,bot_check,,,,,,"[0, 'Patricia']",,1,Patricia,,,0.8172
+25,6,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,0.8172
+26,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,1.0255333333333334
+26,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
+",What did Jill just do?,,exam,,,choice1,control,1.0255333333333334
+27,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,0.757
+27,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,0.757
+28,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,1.2081
+28,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
+",What did Jill just do?,,exam,,,choice1,control,1.2081
+29,,bot_check,,,,,,"[0, 'Margaret']",,1,Margaret,,,0.6055166666666667
+29,7,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> This restaurant is fancy! </b>",Where are Jane and Phil?,,restaurant,,,choice1,control,0.6055166666666667
+30,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,1.4406
+30,1,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",Where are Joe and Kelly?,,football,,,choice2,bare,1.4406
+31,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,1.6575666666666666
+31,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",Where are Joe and Kelly?,,football,,,choice2,must,1.6575666666666666
+32,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,0.8328666666666666
+32,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",Where are Joe and Kelly?,,football,,,choice2,must,0.8328666666666666
+33,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,0.9343666666666667
+33,1,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,0.9343666666666667
+34,,bot_check,,,,,,"[0, 'Patricia']",,1,Patricia,,,0.6189666666666667
+34,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,0.6189666666666667
+35,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,1.6351833333333334
+35,6,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
+",What did Jill just do?,,exam,,,choice1,control,1.6351833333333334
+36,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,0.5109666666666667
+36,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,0.5109666666666667
+37,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,0.5624833333333333
+37,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,0.5624833333333333
+38,,bot_check,,,,,,"[0, 'Jessica']",,1,Jessica,,,0.5776
+38,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
+",What did Jill just do?,,exam,,,choice1,control,0.5776
+39,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,1.3076166666666666
+39,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,1.3076166666666666
+40,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,0.8563666666666667
+40,5,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,must,0.8563666666666667
+2,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,0.4689833333333333
+2,6,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,control,0.4689833333333333
+41,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,3.6250666666666667
+41,6,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",Where was David last week?,,vacation,,,choice2,control,3.6250666666666667
+42,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,0.70535
+42,6,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
+",What did Jill just do?,,exam,,,choice1,must,0.70535
+43,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,0.5964166666666667
+43,6,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",Where are Joe and Kelly?,,football,,,choice2,must,0.5964166666666667
+44,,bot_check,,,,,,"[0, 'JEssica']",,1,Jessica,,,0.6912166666666667
+44,,bot_check,,,,,,"[0, 'Jessica']",,1,Jessica,,,0.6912166666666667
+44,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",Where are Joe and Kelly?,,football,,,choice2,must,0.6912166666666667
+45,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,1.2553833333333333
+45,7,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> This restaurant is fancy! </b>",Where are Jane and Phil?,,restaurant,,,choice1,control,1.2553833333333333
+46,,bot_check,,,,,,"[0, 'Barbara']",,1,Barbara,,,0.9279
+46,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",Where was David last week?,,vacation,,,choice2,control,0.9279
+47,,bot_check,,,,,,"[0, 'Jessica']",,1,Jessica,,,1.14795
+47,2,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He's attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,bare,1.14795
+48,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,1.2345166666666667
+48,5,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza is tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,bare,1.2345166666666667
+49,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,1.0840833333333333
+49,6,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,bare,1.0840833333333333
+50,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,0.7721666666666667
+50,7,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,must,0.7721666666666667
+51,,bot_check,,,,,,"[0, 'Jessica']",,1,Jessica,,,0.42555
+51,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,0.42555
+52,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,1.241
+52,5,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
+",What did Jill just do?,,exam,,,choice1,must,1.241
+53,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,1.21455
+53,7,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,must,1.21455
+54,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,1.33875
+54,5,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,must,1.33875
+55,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,0.9177
+55,2,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",Where are Joe and Kelly?,,football,,,choice2,bare,0.9177
+56,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,1.4173333333333333
+56,5,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,bare,1.4173333333333333
+57,,bot_check,,,,,,"[0, 'Patricia']",,1,Patricia,,,1.15155
+57,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,1.15155
+58,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,0.6274833333333333
+58,4,,1,choice2,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,0.6274833333333333
+59,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,1.1539
+59,4,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,1.1539
+25,,bot_check,,,,,,"[0, 'Patricia']",,1,Patricia,,,1.0516666666666667
+25,1,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He's attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,bare,1.0516666666666667
+60,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,0.6485
+60,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,bare,0.6485
+61,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,0.7121166666666666
+61,6,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
+",What did Jill just do?,,exam,,,choice1,control,0.7121166666666666
+62,,bot_check,,,,,,"[0, 'Barbara']",,1,Barbara,,,0.9394333333333333
+62,3,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,bare,0.9394333333333333
+63,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,1.06865
+63,6,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza is tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,bare,1.06865
+64,,bot_check,,,,,,"[0, 'Margaret']",,1,Margaret,,,1.4830666666666668
+64,1,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He's attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,bare,1.4830666666666668
+65,,bot_check,,,,,,"[0, 'Barbara']",,1,Barbara,,,0.74245
+65,6,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
+",What did Jill just do?,,exam,,,choice1,must,0.74245
+66,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,1.32515
+66,2,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,1.32515
+67,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,0.7441833333333333
+67,3,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,0.7441833333333333
+68,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,0.6270833333333333
+68,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
+",What did Jill just do?,,exam,,,choice1,must,0.6270833333333333
+69,,bot_check,,,,,,"[0, 'Patricia']",,1,Patricia,,,0.6897
+69,7,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,must,0.6897
+70,,bot_check,,,,,,"[0, 'Patricia']",,1,Patricia,,,0.6139833333333333
+70,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,0.6139833333333333
+71,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,0.8684166666666666
+71,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,0.8684166666666666
+72,,bot_check,,,,,,"[0, 'Margaret']",,1,Margaret,,,1.2310166666666666
+72,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",Where was David last week?,,vacation,,,choice2,control,1.2310166666666666
+73,,bot_check,,,,,,"[0, 'barbara']",,1,Barbara,,,1.03475
+73,6,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
+",What did Jill just do?,,exam,,,choice1,control,1.03475
+74,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,0.6037666666666667
+74,7,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,must,0.6037666666666667
+75,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,2.6971166666666666
+75,7,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,control,2.6971166666666666
+76,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,1.14995
+76,1,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,bare,1.14995
+77,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,0.7166166666666667
+77,7,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,control,0.7166166666666667
+78,,bot_check,,,,,,"[0, 'Margaret ']",,1,Margaret,,,1.368
+78,,bot_check,,,,,,"[0, 'Margaret']",,1,Margaret,,,1.368
+78,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
+",What did Jill just do?,,exam,,,choice1,control,1.368
+79,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,1.2711666666666666
+79,7,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,must,1.2711666666666666
+80,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,2.03975
+80,4,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,2.03975
+81,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,1.3003833333333332
+81,1,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,must,1.3003833333333332
+82,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,2.012583333333333
+82,5,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,must,2.012583333333333
+83,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,0.5748666666666666
+83,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,0.5748666666666666
+84,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,1.2640166666666666
+84,1,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He's attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,bare,1.2640166666666666
+85,,bot_check,,,,,,"[0, 'Patricia']",,1,Patricia,,,1.8307166666666668
+85,1,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,must,1.8307166666666668
+86,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,0.6454
+86,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",Where was David last week?,,vacation,,,choice2,control,0.6454
+87,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,0.7657
+87,2,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,bare,0.7657
+88,,bot_check,,,,,,"[0, 'margaret']",,1,Margaret,,,0.7171
+88,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",Where was David last week?,,vacation,,,choice2,control,0.7171
+89,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,1.7468
+89,5,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,bare,1.7468
+90,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,1.4852166666666666
+90,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
+",What did Jill just do?,,exam,,,choice1,must,1.4852166666666666
+91,,bot_check,,,,,,"[0, 'Margaret']",,1,Margaret,,,1.2968166666666667
+91,6,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,1.2968166666666667
+92,,bot_check,,,,,,"[0, 'Patricia']",,1,Patricia,,,1.5288166666666667
+92,5,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,bare,1.5288166666666667
+93,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,1.1599
+93,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,1.1599
+94,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,0.8009166666666667
+94,2,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,0.8009166666666667
+95,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,5.15105
+95,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,5.15105
+96,,bot_check,,,,,,"[0, 'Margaret']",,1,Margaret,,,0.7173166666666667
+96,1,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,0.7173166666666667
+97,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,1.2591
+97,6,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
+",What did Jill just do?,,exam,,,choice1,must,1.2591
+98,,bot_check,,,,,,"[0, 'Margaret']",,1,Margaret,,,0.3603166666666667
+98,6,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",Where are Joe and Kelly?,,football,,,choice2,must,0.3603166666666667
+99,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,1.2462
+99,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",Where are Joe and Kelly?,,football,,,choice2,must,1.2462
+100,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,1.0216833333333333
+100,7,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,must,1.0216833333333333
+101,,bot_check,,,,,,"[0, 'Barbara']",,1,Barbara,,,0.92205
+101,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",Where are Joe and Kelly?,,football,,,choice2,must,0.92205
+102,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,0.7217166666666667
+102,1,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,0.7217166666666667
+103,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,4.4428
+103,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,bare,4.4428
+104,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,1.3431
+104,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",Where was David last week?,,vacation,,,choice2,control,1.3431
+105,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,1.11315
+105,6,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
+",What did Jill just do?,,exam,,,choice1,must,1.11315
+106,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,0.6626833333333333
+106,1,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",Where are Joe and Kelly?,,football,,,choice2,bare,0.6626833333333333
+107,,bot_check,,,,,,"[0, 'Barbara']",,1,Barbara,,,0.7457833333333334
+107,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,0.7457833333333334
+108,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,1.20325
+108,2,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",Where are Joe and Kelly?,,football,,,choice2,bare,1.20325
+109,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,1.1694833333333334
+109,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,1.1694833333333334
+110,,bot_check,,,,,,"[0, 'Patricia']",,1,Patricia,,,0.9543166666666667
+110,1,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,bare,0.9543166666666667
+111,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,1.3643166666666666
+111,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,1.3643166666666666
+112,,bot_check,,,,,,"[0, 'elizabeth']",,1,Elizabeth,,,0.6088666666666667
+112,6,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,must,0.6088666666666667
+113,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,0.7719666666666667
+113,3,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,control,0.7719666666666667
+114,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,1.16725
+114,5,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,1.16725
+115,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,0.9774833333333334
+115,1,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",Where are Joe and Kelly?,,football,,,choice2,bare,0.9774833333333334
+116,,bot_check,,,,,,"[0, 'Jessica']",,1,Jessica,,,1.3649166666666666
+116,3,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,bare,1.3649166666666666
+117,,bot_check,,,,,,"[0, 'Jessica']",,1,Jessica,,,0.8074833333333333
+117,7,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,control,0.8074833333333333
+118,,bot_check,,,,,,"[0, 'Patricia']",,1,Patricia,,,0.9426166666666667
+118,1,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,must,0.9426166666666667
+119,,bot_check,,,,,,"[0, 'Jessica']",,1,Jessica,,,0.7140833333333333
+119,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
+",What did Jill just do?,,exam,,,choice1,control,0.7140833333333333
+120,,bot_check,,,,,,"[0, 'Barbara']",,1,Barbara,,,0.8738833333333333
+120,6,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,0.8738833333333333
+121,,bot_check,,,,,,"[0, 'Barbara']",,1,Barbara,,,0.6484333333333333
+121,1,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",Where are Joe and Kelly?,,football,,,choice2,bare,0.6484333333333333
+122,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,0.9429833333333333
+122,6,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",Where are Joe and Kelly?,,football,,,choice2,must,0.9429833333333333
+123,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,1.0872333333333333
+123,6,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,control,1.0872333333333333
+124,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,1.1919166666666667
+124,1,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",Where are Joe and Kelly?,,football,,,choice2,bare,1.1919166666666667
+125,,bot_check,,,,,,"[0, 'Jessica']",,1,Jessica,,,0.7695166666666666
+125,4,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
+",What did Jill just do?,,exam,,,choice1,must,0.7695166666666666
+126,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,1.4140666666666666
+126,6,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,1.4140666666666666
+127,,bot_check,,,,,,"[0, 'Barbara']",,1,Barbara,,,0.5430333333333334
+127,5,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,must,0.5430333333333334
+128,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,1.2291
+128,1,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",Where are Joe and Kelly?,,football,,,choice2,bare,1.2291
+45,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,1.09805
+45,2,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",Where are Joe and Kelly?,,football,,,choice2,bare,1.09805
+129,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,0.7248166666666667
+129,7,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,control,0.7248166666666667
+130,,bot_check,,,,,,"[0, 'Patricia']",,1,Patricia,,,0.9734
+130,7,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,control,0.9734
+131,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,2.3169666666666666
+131,2,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,2.3169666666666666
+132,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,0.8686333333333334
+132,6,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,control,0.8686333333333334
+133,,bot_check,,,,,,"[0, 'Barbara']",,1,Barbara,,,0.8967833333333334
+133,5,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
+",What did Jill just do?,,exam,,,choice1,control,0.8967833333333334
+134,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,3.9808166666666667
+134,3,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
+",What did Jill just do?,,exam,,,choice1,control,3.9808166666666667
+135,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,0.6802333333333334
+135,6,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,0.6802333333333334
+136,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,0.38548333333333334
+136,1,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He's attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,bare,0.38548333333333334
+137,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,0.9146833333333333
+137,1,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",Where are Joe and Kelly?,,football,,,choice2,bare,0.9146833333333333
+138,,bot_check,,,,,,"[0, 'Margaret']",,1,Margaret,,,0.9480833333333333
+138,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",Where was David last week?,,vacation,,,choice2,control,0.9480833333333333
+139,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,0.6246333333333334
+139,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
+",What did Jill just do?,,exam,,,choice1,control,0.6246333333333334
+140,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,1.1815333333333333
+140,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,1.1815333333333333
+141,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,0.9273666666666667
+141,6,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",Where are Joe and Kelly?,,football,,,choice2,must,0.9273666666666667
+45,,bot_check,,,,,,"[0, 'elizabeth']",,1,Elizabeth,,,1.3549333333333333
+45,6,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,must,1.3549333333333333
+142,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,0.9316
+142,2,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,0.9316
+143,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,2.16475
+143,2,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,bare,2.16475
+144,,bot_check,,,,,,"[0, 'jennifer']",,1,Jennifer,,,0.7635666666666666
+144,1,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,0.7635666666666666
+145,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,0.9024166666666666
+145,6,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,0.9024166666666666
+146,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,1.7690666666666666
+146,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",Where are Joe and Kelly?,,football,,,choice2,must,1.7690666666666666
+147,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,0.8436333333333333
+147,6,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza is tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,bare,0.8436333333333333
+148,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,0.8757
+148,3,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza is tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,bare,0.8757
+88,,bot_check,,,,,,"[0, 'patricia']",,1,Patricia,,,0.3912
+88,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",Where was David last week?,,vacation,,,choice2,control,0.3912
+149,,bot_check,,,,,,"[0, 'Margaret']",,1,Margaret,,,0.9065333333333333
+149,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,0.9065333333333333
+150,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,0.9791
+150,7,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> This restaurant is fancy! </b>",Where are Jane and Phil?,,restaurant,,,choice1,control,0.9791
+2,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,0.7219166666666667
+2,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,0.7219166666666667
+151,,bot_check,,,,,,"[0, 'linda']",,1,Linda,,,1.3282666666666667
+151,5,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He's attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,bare,1.3282666666666667
+152,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,1.8071666666666666
+152,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,1.8071666666666666
+153,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,2.1697166666666665
+153,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,2.1697166666666665
+25,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,1.0087166666666667
+25,1,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,bare,1.0087166666666667
+154,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,1.7500166666666668
+154,7,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,must,1.7500166666666668
+155,,bot_check,,,,,,"[0, 'Margaret']",,1,Margaret,,,0.33466666666666667
+155,6,,1,choice2,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza is tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,bare,0.33466666666666667
+156,,bot_check,,,,,,"[0, 'margaret']",,1,Margaret,,,0.47308333333333336
+156,7,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,control,0.47308333333333336
+157,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,1.0743833333333332
+157,1,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,must,1.0743833333333332
+158,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,1.3633166666666667
+158,4,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,1.3633166666666667
+159,,bot_check,,,,,,"[0, 'Margaret']",,1,Margaret,,,0.7366833333333334
+159,7,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> This restaurant is fancy! </b>",Where are Jane and Phil?,,restaurant,,,choice1,control,0.7366833333333334
+160,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,1.0769833333333334
+160,5,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
+",What did Jill just do?,,exam,,,choice1,control,1.0769833333333334
+161,,bot_check,,,,,,"[0, 'Patricia']",,1,Patricia,,,0.6493333333333333
+161,5,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
+",What did Jill just do?,,exam,,,choice1,must,0.6493333333333333
+162,,bot_check,,,,,,"[0, 'Jessica']",,1,Jessica,,,0.7593166666666666
+162,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
+",What did Jill just do?,,exam,,,choice1,must,0.7593166666666666
+163,,bot_check,,,,,,"[0, 'susan']",,1,Susan,,,0.9226
+163,1,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,must,0.9226
+164,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,0.4695
+164,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",Where was David last week?,,vacation,,,choice2,control,0.4695
+165,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,0.7290833333333333
+165,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,0.7290833333333333
+166,,bot_check,,,,,,"[0, 'Jessica']",,1,Jessica,,,0.8896333333333334
+166,5,,1,choice2,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,0.8896333333333334
+167,,bot_check,,,,,,"[0, 'Jessica']",,1,Jessica,,,1.13925
+167,5,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
+",What did Jill just do?,,exam,,,choice1,must,1.13925
+168,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,1.8894
+168,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,1.8894
+169,,bot_check,,,,,,"[0, 'Barbara']",,1,Barbara,,,1.9414
+169,7,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> This restaurant is fancy! </b>",Where are Jane and Phil?,,restaurant,,,choice1,control,1.9414
+170,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,1.5424666666666667
+170,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,1.5424666666666667
+171,,bot_check,,,,,,"[0, 'Barbara']",,1,Barbara,,,1.2729666666666666
+171,6,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,1.2729666666666666
+172,,bot_check,,,,,,"[0, 'Barbara']",,1,Barbara,,,1.2001166666666667
+172,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
+",What did Jill just do?,,exam,,,choice1,control,1.2001166666666667
+173,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,0.81325
+173,7,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,must,0.81325
+174,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,1.45805
+174,2,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,must,1.45805
+175,,bot_check,,,,,,"[0, 'Margaret']",,1,Margaret,,,1.52595
+175,7,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,control,1.52595
+176,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,1.80455
+176,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,1.80455
+177,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,0.7789666666666667
+177,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,0.7789666666666667
+178,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,0.5354666666666666
+178,2,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",Where are Joe and Kelly?,,football,,,choice2,bare,0.5354666666666666
+179,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,1.3495
+179,6,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
+",What did Jill just do?,,exam,,,choice1,control,1.3495
+180,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,0.6274666666666666
+180,1,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
+",What did Jill just do?,,exam,,,choice1,must,0.6274666666666666
+181,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,1.0957333333333332
+181,1,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,bare,1.0957333333333332
+182,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,0.8222833333333334
+182,2,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",Where are Joe and Kelly?,,football,,,choice2,must,0.8222833333333334
+183,,bot_check,,,,,,"[0, 'Linda']",,1,Linda,,,0.7496666666666667
+183,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,0.7496666666666667
+45,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,1.0290166666666667
+45,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
+",What did Jill just do?,,exam,,,choice1,must,1.0290166666666667
+184,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,0.83645
+184,1,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,0.83645
+185,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,0.80945
+185,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,bare,0.80945
+186,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,1.4804666666666666
+186,6,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,bare,1.4804666666666666
+187,,bot_check,,,,,,"[0, 'Jessica']",,1,Jessica,,,0.9531166666666666
+187,6,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,0.9531166666666666
+188,,bot_check,,,,,,"[0, 'Patricia']",,1,Patricia,,,0.7567833333333334
+188,4,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza is tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,bare,0.7567833333333334
+189,,bot_check,,,,,,"[0, 'susan']",,1,Susan,,,0.7789
+189,7,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He's attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,bare,0.7789
+190,,bot_check,,,,,,"[0, 'Patricia']",,1,Patricia,,,0.54245
+190,1,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,0.54245
+191,,bot_check,,,,,,"[0, 'mary']",,1,Mary,,,0.8148833333333333
+191,1,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,0.8148833333333333
+192,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,0.8440833333333333
+192,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> Jill, you look distressed! </b>
+",What did Jill just do?,,exam,,,choice1,control,0.8440833333333333
+193,,bot_check,,,,,,"[0, 'Elizabeth']",,1,Elizabeth,,,1.2623833333333334
+193,2,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,must,1.2623833333333334
+194,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,1.85595
+194,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,1.85595
+195,,bot_check,,,,,,"[0, 'Barbara']",,1,Barbara,,,1.0482
+195,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,1.0482
+196,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,0.7717666666666667
+196,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It was quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,bare,0.7717666666666667
+197,,bot_check,,,,,,"[0, 'Patricia']",,1,Patricia,,,1.2272
+197,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",Where was David last week?,,vacation,,,choice2,control,1.2272
+198,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,0.6535833333333333
+198,6,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",Where are Joe and Kelly?,,football,,,choice2,must,0.6535833333333333
+199,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,0.84875
+199,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,0.84875
+200,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,0.8661333333333333
+200,6,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It must have been a really impressive play!  </b>",Where are Joe and Kelly?,,football,,,choice2,must,0.8661333333333333
+201,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,2.061916666666667
+201,1,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",Where are Joe and Kelly?,,football,,,choice2,bare,2.061916666666667
+202,,bot_check,,,,,,"[0, 'sarah']",,1,Sarah,,,1.01425
+202,6,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza must be tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,must,1.01425
+203,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,0.6621333333333334
+203,5,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He's attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,bare,0.6621333333333334
+204,,bot_check,,,,,,"[0, 'Margaret']",,1,Margaret,,,1.5509666666666666
+204,7,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> He must be attractive! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,must,1.5509666666666666
+88,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,0.472
+88,7,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> This restaurant is fancy! </b>",Where are Jane and Phil?,,restaurant,,,choice1,control,0.472
+205,,bot_check,,,,,,"[0, 'Jennifer']",,1,Jennifer,,,1.0586666666666666
+205,2,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It was a difficult exam! </b>
+ ",What did Jill just do?,,exam,,,choice1,bare,1.0586666666666666
+206,,bot_check,,,,,,"[0, 'Susan']",,1,Susan,,,0.8560666666666666
+206,2,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> David, you're smiling more than usual! </b>",Where was David last week?,,vacation,,,choice2,control,0.8560666666666666
+207,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,0.7366166666666667
+207,7,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Joe replies: </i> <b> I was looking at my phone! </b>",Where are Joe and Kelly?,,football,,,choice2,control,0.7366166666666667
+208,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,1.8423666666666667
+208,1,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> That pizza is tasty! </b>",Where are Jane and Phil?,,restaurant,,,choice1,bare,1.8423666666666667
+209,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,0.6546666666666666
+209,2,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,0.6546666666666666
+127,,bot_check,,,,,,"[0, 'Jessica']",,1,Jessica,,,0.69885
+127,5,,1,choice1,," <i> Jane and Phil are at a fancy new restaurant for lunch. Jane ordered pizza, while David ordered a salad. Jane takes the first bite into her pizza and says: ""Mmm!"" <p> Phil says: </i> <b> This restaurant is fancy! </b>",Where are Jane and Phil?,,restaurant,,,choice1,control,0.69885
+210,,bot_check,,,,,,"[0, 'Mary']",,1,Mary,,,4.717133333333333
+210,6,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
+",What did Jill just do?,,exam,,,choice1,must,4.717133333333333
+211,,bot_check,,,,,,"[0, 'Jessica']",,1,Jessica,,,0.9541833333333334
+211,6,,1,choice1,,"<i> Annie and Betty are gossiping. Annie doesn't know anything about Betty's neighbor. Betty says, blushing, ""You've GOT to see this picture of my new neighbor!""  <p> Without looking at the picture, Annie replies: </i> <b> Betty, you're blushing! </b>",Who are Annie and Betty talking about in the passage?,,attractive,,,choice1,control,0.9541833333333334
+212,,bot_check,,,,,,"[0, 'Sarah']",,1,Sarah,,,3.0138833333333332
+212,7,,1,choice2,," <i> David and Lisa are coworkers, and David has just returned from a weeklong vacation (Lisa had to work last week). At work today, Lisa notices that the usual bags under David's eyes are gone, and he is smiling more than usual. <p> Lisa says: </i> <b> It must have been quite relaxing to be on vacation last week! </b>",Where was David last week?,,vacation,,,choice2,must,3.0138833333333332
+213,,bot_check,,,,,,"[0, 'Jessica']",,1,Jessica,,,0.857
+213,1,,1,choice2,,"<i> Joe and Kelly are at a football game. Joe looks down at his phone for a second and hears the crowd erupt in cheering. Kelly says to Joe: ""I can't believe you missed that play!"" <p> Still looking at his phone, Joe replies: </i> <b> It was a really impressive play! </b>",Where are Joe and Kelly?,,football,,,choice2,bare,0.857
+214,,bot_check,,,,,,"[0, 'Patricia']",,1,Patricia,,,1.4335333333333333
+214,7,,1,choice1,,"<i> Brian meets Jill shortly after she finishes her final calculus exam. Brian didn't take the exam but can see that Jill is visibly distressed. <p> Brian says: </i> <b> It must have been a difficult exam! </b>
+",What did Jill just do?,,exam,,,choice1,must,1.4335333333333333
