@@ -47,7 +47,9 @@ ggplot(byVignetteConditionKind, aes(x=vignette, y=Mean, fill = condition)) +
   theme_bw() +
   scale_fill_grey() +
   geom_bar(stat="identity",position = "dodge") +
-  theme(axis.text.x=element_text(angle=20,hjust=1,vjust=1)) +
+  theme(axis.text.x=element_text(angle=20,hjust=1,vjust=1),
+        text = element_text(size=15),
+        legend.position="bottom") +
   geom_errorbar(aes(ymin=YMin,ymax=YMax),size = 0.25,width= 0.025,position = dodge) +  
   labs(x = "Vignette", y = "Mean rating", fill = "Condition") 
 

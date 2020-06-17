@@ -3,41 +3,49 @@ library(tidyverse)
 
 setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
-must <- fromJSON("model2.json")
+must <- fromJSON("result1_pam.json")
 
 estimate_mode <- function(s) {
   d <- density(s)
   return(d$x[which.max(d$y)])
 }
 
-premise1 <- ggplot(must$posteriors$support, aes(x=premise1prior)) + 
-  geom_density() +
-  xlab('Value') +
+base = 6
+expand = 4
+
+premise1 <- ggplot(data.frame(must$premise1)) + 
+  geom_bar(aes(x = support, y = probs),stat="identity") +
+  # stat_smooth(aes(y = probs,x = support), method = "gam",se = FALSE, formula = y ~ s(x, k = 10)) +
+  theme_bw() +
+  theme(text = element_text(size = base * expand / 2.1, face = "bold")) +
+  xlab(element_blank()) +
   ylab('Density')
-ggsave("premise1.jpeg",width = 2, height = 2, units = "in", dpi=1000)
+ggsave("result1pampremise1.pdf",width = 2, height = 2, units = "in", dpi=1000)
 
-premise2 <- ggplot(must$posteriors$support, aes(x=premise2prior)) + 
-  geom_density() +
-  xlab('Value') +
+premise2 <- ggplot(data.frame(must$premise2)) + 
+  geom_bar(aes(x = support, y = probs),stat="identity") +
+  # stat_smooth(aes(y = probs,x = support), method = "gam",se = FALSE, formula = y ~ s(x, k = 10)) +
+  theme_bw() +
+  theme(text = element_text(size = base * expand / 2.1, face = "bold")) +
+  xlab(element_blank()) +
   ylab('Density')
-ggsave("premise2.jpeg",width = 2, height = 2, units = "in", dpi=1000)
+ggsave("result1pampremise2.pdf",width = 2, height = 2, units = "in", dpi=1000)
 
-commitment <- ggplot(must$posteriors$support, aes(x=commitment)) + 
-  geom_density() +
-  xlab('Value') +
+commitment <- ggplot(data.frame(must$commitment)) + 
+  geom_bar(aes(x = support, y = probs),stat="identity") +
+  # stat_smooth(aes(y = probs,x = support), method = "gam",se = FALSE, formula = y ~ s(x, k = 7)) +
+  theme_bw() +
+  theme(text = element_text(size = base * expand / 2.1, face = "bold")) +
+  xlab(element_blank()) +
   ylab('Density')
-ggsave("commitment.jpeg",width = 2, height = 2, units = "in", dpi=1000)
+ggsave("result1pamcommitment.pdf",width = 2, height = 2, units = "in", dpi=1000)
 
-theta <- ggplot(must$posteriors$support, aes(x=theta)) + 
-  geom_density() +
-  xlab('Value') +
+theta <- ggplot(data.frame(must$theta)) + 
+  geom_bar(aes(x = support, y = probs),stat="identity") +
+  # stat_smooth(aes(y = probs,x = support), method = "gam",se = FALSE, formula = y ~ s(x, k = 7)) +
+  theme_bw() +
+  theme(text = element_text(size = base * expand / 2.1, face = "bold")) +
+  xlab(element_blank()) +
   ylab('Density')
-ggsave("theta.jpeg",width = 2, height = 2, units = "in", dpi=1000)
+ggsave("result1pamtheta.pdf",width = 2, height = 2, units = "in", dpi=1000)
 
-hist(must$posteriors$support$premise2prior)
-
-
-
-
-estimate_mode(must$priors$support$premise2prior)
-estimate_mode(must$posteriors$support$premise1prior)

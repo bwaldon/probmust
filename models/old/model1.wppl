@@ -1,0 +1,109 @@
+// var t = shelljs.exec('python3 stone94.py "[A, B]" "[(A & B) >> C, C >> D, A >> ~C]" "[(A & B) >> C, C >> D]" D').stdout
+
+var k = "[A, B]"
+
+var t = "[A >> C]"
+
+var h = "C"
+
+var deltaPrior = cache(function(premise1prior,premise2prior) {
+	return Infer({method: "forward", samples : 100}, function() {
+	let d = [];
+  	flip(premise1prior) ? d.push("(A & B) >> ~C") : null
+  	flip(premise2prior) ? d.push("(A & D) >> E") : null
+	return(d)
+	})
+});
+
+var mustTest = cache(function(k,d,t,h) {
+	var cmd = "python3 stone94.py '" + k + "' '[" + d + "]' '" + t + "' '" + h + "'"
+	// console.log(cmd)
+	var out = shelljs.exec(cmd,{ }).stdout
+	return(out)
+})
+
+var commitmentPrior = cache(function(premise1prob,premise2prob) {
+	return Math.round(Math.exp(Infer({method: "enumerate"}, function() {
+  		var delta = sample(deltaPrior(premise1prob,premise1prob))
+  		var test = mustTest(k,delta,t,h)
+  		return test
+  	}).score('True'))* 10)/10
+})
+
+var alpha = 4; // optimality parameter
+
+var utterances = ["must", ""];
+var utterancePrior = function() {
+  return uniformDraw(utterances);
+};
+
+var cost = {
+  "must": 1,
+  "" : 0
+};
+
+var thresholdPrior = {
+  "likelihoods": [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1],
+  "probabilities": [1,1,1,1,1,1,1,1,1,1,1]
+ };
+
+var thetaPrior = function() {
+  return categorical(thresholdPrior.probabilities, thresholdPrior.likelihoods);
+};
+
+var meaning = function(utterance, commitment, theta) {
+  	utterance == "must" ? commitment >= theta : true;
+};
+
+var literalListener = cache(function(utterance, theta) {
+  return Infer({method: "enumerate"}, function() {
+
+    var premise1prior = uniformDraw([0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]);
+  	var premise2prior = uniformDraw([0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]);
+  	var commitment = commitmentPrior(premise1prior,premise2prior);
+
+    condition(meaning(utterance, commitment, theta))
+    return commitment;
+  });
+});
+
+var speaker = cache(function(commitment, theta) {
+  return Infer({method: "enumerate"}, function() {
+    var utterance = utterancePrior();
+    factor( alpha * (literalListener(utterance, theta).score(commitment) 
+                    - cost[utterance]));
+    return utterance;
+  });
+});
+
+
+var pragmaticListener = function(utterance) {
+  return Infer({method: "MCMC", samples: 2500, verbose: true}, function() {
+
+  	var premise1prior = uniformDraw([0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]);
+  	var premise2prior = uniformDraw([0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]);
+  	var commitment = commitmentPrior(premise1prior,premise2prior);
+
+    var theta = thetaPrior();
+    factor(speaker(commitment, theta).score(utterance));
+    return { commitment: commitment, theta: theta, premise1prior: premise1prior, premise2prior: premise2prior};
+  });
+};
+
+// var commitment_prior = function() {
+// 	return Infer({method: "forward", samples: 5000, verbose: true}, function () {
+// 		var premise1prior = uniformDraw([0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]);
+// 		var premise2prior = uniformDraw([0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1]);
+// 		var commitment = commitmentPrior(premise1prior,premise2prior);
+// 		return {commitment: commitment, premise1prior: premise1prior, premise2prior: premise2prior};
+// 	});
+// }
+
+// var priors = commitment_prior();
+var must_post = pragmaticListener("must");
+
+json.write("result1.json", {posteriors: must_post, maxap_post : must_post.MAP().val})
+
+
+// APPROXIMATE THE PRIORS
+
